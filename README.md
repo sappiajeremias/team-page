@@ -1,5 +1,5 @@
 # team-page
-Fake team page to practice with HTML and CSS 
+Friends team page to practice with HTML and CSS 
 
 
 # programmer

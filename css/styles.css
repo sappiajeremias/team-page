@@ -1,5 +1,10 @@
 body {
     background-color: #2C394B;
+    width: 100%;
+}
+
+#container {
+    width: 80%;
 }
 
 .barraNav {
@@ -47,14 +52,13 @@ body {
 
 .footer {
     background-color: #FF4C29;
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .header {
     padding-top: 225px;
     padding-bottom: 175px;
-    width: 50.22cm;
-    margin-left: -0.5cm;
 }
 
 .imgJere {
@@ -83,6 +87,21 @@ body {
     width: 300px;
 }
 
+.imgMail {
+    height: 100px;
+    width: 100px;
+}
+
+.imgGit {
+    height: 100px;
+    width: 100px;
+}
+
+.itemRedes {
+    display: inline-block;
+    padding-left: 25px;
+}
+
 .linkNombres {
     text-decoration: none;
 }
@@ -90,6 +109,12 @@ body {
 .listaNav {
     display: flex;
     flex-direction: row;
+    list-style: none;
+}
+
+.listaRedes {
+    display: flex;
+    justify-content: flex-end;
     list-style: none;
 }
 
