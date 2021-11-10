@@ -1,0 +1,194 @@
+body {
+    background-color: #2C394B;
+}
+
+.barraNav {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.bgFotos {
+    background-color: #2C394B;
+    background-size: cover;
+}
+
+.bgHeader {
+    background-color: #082032;
+    background-size: cover;
+}
+
+.bgNav {
+    background-image: url(../assets/images/fondinho.png);
+    background-size: cover;
+    padding-bottom: 0.5rem;
+    background-color: #082032;
+}
+
+.colorSeparador {
+    background-color: #FFD523;
+    padding-top: 35px;
+}
+
+.firstRowPics {
+    padding-top: 150px;
+}
+
+.fixedTop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.footer {
+    background-color: #FF4C29;
+    padding-top: 50px;
+}
+
+.header {
+    padding-top: 225px;
+    padding-bottom: 175px;
+    width: 50.22cm;
+    margin-left: -0.5cm;
+}
+
+.imgJere {
+    height: 350px;
+    width: 280px;
+}
+
+.imgNabue {
+    height: 350px;
+    width: 300px;
+}
+
+.imgRodri {
+    height: 350px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.imgTiago {
+    height: 350px;
+    width: 300px;
+}
+
+.imgNacho {
+    height: 350px;
+    width: 300px;
+}
+
+.linkNombres {
+    text-decoration: none;
+}
+
+.listaNav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.ms-auto {
+    margin-right: 1rem;
+}
+
+.md-1 {
+    margin-left: 0.25rem;
+    margin-right: 0.5rem;
+}
+
+.md-2 {
+    margin-top: 1.25rem;
+    margin-left: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.navLogo {
+    width: 7.5rem;
+    height: 6rem;
+    padding-left: 1.5rem;
+    padding-top: 0rem;
+}
+
+.navItem {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+}
+
+.secondRowPics {
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.textHeader1 {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: azure;
+    padding-right: 1rem;
+}
+
+.textHeader2 {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: azure;
+    padding-left: 1rem;
+}
+
+.tituloHeader {
+    text-align: center;
+    font-size: 7.5rem;
+    font-family: 'Stick No Bills', sans-serif;
+    color: azure;
+    margin-bottom: 5rem;
+}
+
+.tituloImg1 {
+    font-family: 'Stick No Bills', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    padding-left: 75px;
+    color: azure;
+}
+
+.tituloImg2 {
+    font-family: 'Stick No Bills', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    padding-left: 110px;
+    color: azure;
+}
+
+.tituloImg3 {
+    font-family: 'Stick No Bills', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    padding-left: 100px;
+    color: azure;
+}
+
+.tituloImg4 {
+    font-family: 'Stick No Bills', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    padding-left: 110px;
+    color: azure;
+}
+
+.tituloImg5 {
+    font-family: 'Stick No Bills', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    padding-left: 110px;
+    color: azure;
+}
