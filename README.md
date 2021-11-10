@@ -2,7 +2,7 @@
 Friends team page to practice with HTML and CSS 
 
 
-# programmer
+# Programmer
 
 Name: Jeremias Sappia
 
