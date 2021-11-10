@@ -39,7 +39,10 @@ body {
 }
 
 .firstRowPics {
-    padding-top: 150px;
+    width: 100%;
+    padding-left: 75px;
+    padding-top: 50px;
+    align-items: center;
 }
 
 .fixedTop {
@@ -54,6 +57,10 @@ body {
     background-color: #FF4C29;
     padding-top: 25px;
     padding-bottom: 15px;
+}
+
+.fotos {
+    width: 100%;
 }
 
 .header {
@@ -97,9 +104,15 @@ body {
     width: 100px;
 }
 
+.imglinkedin {
+    height: 100px;
+    width: 100px;
+}
+
 .itemRedes {
-    display: inline-block;
-    padding-left: 25px;
+    padding-right: 50px;
+    align-items: flex-end;
+    float: right;
 }
 
 .linkNombres {
@@ -116,10 +129,13 @@ body {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    width: 100%;
+    padding-right: 50px;
 }
 
 .ms-auto {
     margin-right: 1rem;
+    padding-left: 5rem;
 }
 
 .md-1 {
@@ -149,9 +165,18 @@ body {
     color: azure;
 }
 
+.redes {
+    background-color: #FF4C29;
+    width: 100%;
+    float: left;
+}
+
 .secondRowPics {
     padding-top: 75px;
     padding-bottom: 100px;
+    width: 100%;
+    padding-left: 150px;
+    align-items: center;
 }
 
 .textHeader1 {
@@ -176,6 +201,15 @@ body {
     font-family: 'Stick No Bills', sans-serif;
     color: azure;
     margin-bottom: 5rem;
+}
+
+.tituloTeam {
+    font-family: 'Stick No Bills', sans-serif;
+    color: azure;
+    text-align: center;
+    font-weight: bold;
+    font-size: 75px;
+    padding-top: 175px;
 }
 
 .tituloImg1 {
