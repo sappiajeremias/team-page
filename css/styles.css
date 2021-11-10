@@ -3,6 +3,10 @@ body {
     width: 100%;
 }
 
+#pageTop {
+    width: 100%;
+}
+
 #container {
     width: 80%;
 }
@@ -165,6 +169,15 @@ body {
     color: azure;
 }
 
+.nombreRedes {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    width: 100%;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+
 .redes {
     background-color: #FF4C29;
     width: 100%;
@@ -250,4 +263,102 @@ body {
     font-size: 2.5rem;
     padding-left: 110px;
     color: azure;
+}
+
+.tituloFooter {
+    font-family: 'Stick No Bills', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: #082032;
+}
+
+
+/*
+
+ESTILOS DE LOS PERFILES
+
+*/
+
+#perfil {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #082032;
+    width: 100%;
+}
+
+.imgPerfil1 {
+    width: 550px;
+    height: 700px;
+    padding-left: 50px;
+}
+
+.imgPerfil2 {
+    width: 550px;
+    height: 700px;
+    padding-left: 50px;
+}
+
+.imgInsta {
+    width: 110px;
+    height: 110px;
+}
+
+.imgTw {
+    width: 110px;
+    height: 110px;
+}
+
+.itemListaPerfil1 {
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+.itemRedesPerfil {
+    padding-left: 100px;
+    list-style-type: none;
+}
+
+.itemTextoRedes {
+    list-style-type: none;
+}
+
+.listaDatosPerfil {
+    padding-left: 7.5rem;
+    list-style: none;
+    padding-top: 225px;
+}
+
+.listaRedesPerfil {
+    padding-left: 50px;
+    padding-top: 75px;
+    list-style: none;
+    display: flex;
+}
+
+.tituloImgPerfil1 {
+    font-family: 'Stick No Bills', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: azure;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+}
+
+.textoLista {
+    color: azure;
+    font-family: 'Red Hat Mono', monospace;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.textoRedes {
+    color: azure;
+    font-family: 'Red Hat Mono', monospace;
+    text-align: justify;
+    padding-top: 30px;
+    font-size: 40px;
+    align-items: center;
+    text-decoration: underline;
 }
